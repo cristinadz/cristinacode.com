@@ -6,6 +6,8 @@ function Header() {
 			<p>
 				cristina <br /> diaz
 			</p>
+			<p> based in los angeles</p>
+			<p> contact</p>
 		</div>
 	);
 }

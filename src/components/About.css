@@ -1,69 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
-	background-color: #dfe1fbff;
-    font-family: "Quicksand", sans-serif;
-    margin: 2%;
+	background-color: #edfbc8ff;
+	font-family: 'Poppins', sans-serif;
 
 }
 
-/* #1d07bdf
-#bd07a4ff 
-
-#1c27beff
-#c2dbdeff
-
-#b3b8fbf
-#c3c6d7ff*/
-
 .container {
-	width: 100vw;
-	height: 100vh;
+	width: 99vw;
+	height: 99vh;
 
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	/* display: grid;
+	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 50px repeat(3, 1fr);
 	grid-column-gap: 0px;
-	grid-row-gap: 0px;
+	grid-row-gap: 0px; */
 }
 
 .header {
-    grid-column-start: 1;
-    grid-column-end: 4;
-	background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-column-gap: 25px;
+    padding-top: 25px;
+	color: #375579ff;
 }
- 
+
 .title {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    color: #375579ff;
-    font-weight: bold;
-    font-size: 100px;
+	grid-column-start: 1;
+	grid-column-end: 13;
+	color: #375579ff;
+    line-height: 90px;
+	font-size: 110px;
+    padding-top: 20px;
 }
 
 .cristinaImg {
-    grid-column-start: 1;
-    grid-column-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 7;
+   
 }
 
 .cristinaImg img {
-	/* border-radius: 5%; */
-	margin: 0 auto;
+    border-radius: 50%;
+	margin: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
 	height: 250px;
 	width: auto;
 }
 
 .about {
-	font-family: "Quicksand", sans-serif;
-	font-weight: bolder;
+    grid-column-start: 6;
+    grid-column-end: 13;
     grid-row-start: 4;
-    grid-column-start: 3;
-    grid-column-end: 4;
-
 }
-
+.about text {
+	font-size: 110px;
+    color: #375579ff;
+    line-height: 90px;
+    padding-top: 50px;
+}
 .technologies {
-    grid-row-start: 5;
-    grid-column-start: 1;
-    grid-column-end: 4;
+	grid-row-start: 5;
+	grid-column-start: 1;
+	grid-column-end: 4;
 }
 
 
+/* #1d07bdf
+#bd07a4ff 
+d1f969ff
+#1c27beff
+#c2dbdeff
+#dfe1fbff
+#b3b8fbf
+#c3c6d7ff*/
