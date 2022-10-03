@@ -1,0 +1,69 @@
+body {
+	background-color: #dfe1fbff;
+    font-family: "Quicksand", sans-serif;
+    margin: 2%;
+
+}
+
+/* #1d07bdf
+#bd07a4ff 
+
+#1c27beff
+#c2dbdeff
+
+#b3b8fbf
+#c3c6d7ff*/
+
+.container {
+	width: 100vw;
+	height: 100vh;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 50px repeat(3, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+	background-color: aqua;
+}
+ 
+.title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: #375579ff;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.cristinaImg {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.cristinaImg img {
+	/* border-radius: 5%; */
+	margin: 0 auto;
+	height: 250px;
+	width: auto;
+}
+
+.about {
+	font-family: "Quicksand", sans-serif;
+	font-weight: bolder;
+    grid-row-start: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+
+.technologies {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+

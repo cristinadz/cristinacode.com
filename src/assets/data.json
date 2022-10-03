@@ -1,0 +1,44 @@
+{
+	"firstName": "Cristina",
+	"lastName": "Diaz",
+	"title": "Software Developer",
+	"imageAlt": "Cristina's Face",
+	"linkedinLink": "https://www.linkedin.com/in/diaz-cristina",
+	"aboutBlurb": "Cristina is a blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+	"tech": [
+		"Javascript",
+		"Ruby",
+		"React",
+		"Rails",
+		"Chakra UI",
+		"Bootstrap",
+		"CSS",
+		"GitHub"
+	],
+	"interests": [
+		"Cooking",
+		"Running",
+		"Crochet",
+		"Reading",
+		"House Plants",
+		"My 2 Dogs",
+		"LGBTQIA+ Rights"
+	],
+	"projects": [
+		{
+			"name": "dorphins",
+			"tech": ["React", "Rails", "Chakra UI", "Chart.js"],
+			"description": "enter description here"
+		},
+		{
+			"company": "Tiny Task",
+			"tech": ["React", "Rails", "Chakra UI"],
+			"description": "enter description here"
+		},
+		{
+			"company": "fetchr",
+			"tech": ["React", "CSS", "Javascript"],
+			"description": "description"
+		}
+	]
+}
