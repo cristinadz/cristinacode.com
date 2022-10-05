@@ -23,7 +23,7 @@ function App() {
 			/>
 
 			<Technologies tech={data.tech} title={'Skills'}/>
-			<Projects projects={data.projects} />
+			{/* <Projects projects={data.projects} /> */}
 		</div>
 	);
 }
