@@ -22,7 +22,7 @@ function App() {
 				cristinaImg={cristinaImg}
 			/>
 
-			<Technologies tech={data.tech} />
+			<Technologies tech={data.tech} title={'Skills'}/>
 			<Projects projects={data.projects} />
 		</div>
 	);

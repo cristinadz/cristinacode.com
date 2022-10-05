@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-	background-color: #edfbc8ff;
+	background-color: rgb(234, 249, 193);
 	font-family: "Poppins", sans-serif;
 }
 
@@ -13,22 +13,22 @@ body {
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	grid-column-gap: 25px;
-	color: #375579ff;
+	/* color: #375579ff; */
 	padding: 50px;
 	padding-bottom: 20px;
 	padding-top: 25px;
-    font-size: 18px;
+	font-size: 20px;
 }
 
 .about-container {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-column-gap: 25px;
-	
+
 	margin-top: 0;
 	padding: 50px;
-    padding-top: 0px;
-    padding-bottom: 130px;
+	padding-top: 0px;
+	padding-bottom: 130px;
 }
 
 .title {
@@ -39,9 +39,9 @@ body {
 }
 
 .title p {
-    font-size: 140px;
-    margin: 0;
-    margin-top: 20px;
+	font-size: 140px;
+	margin: 0;
+	margin-top: 20px;
 }
 
 .cristinaImg {
@@ -68,15 +68,58 @@ body {
 	font-size: 140px;
 	color: #375579ff;
 	line-height: 130px;
-    margin: 0;
+	margin: 0;
 }
 
 .about-me {
-    grid-column-start: 4;
-	grid-column-end: 7;
+	grid-column-start: 4;
+	grid-column-end: 8;
 	grid-row-start: 4;
-    font-size: 25px;
-    text-align: left;
+	font-size: 30px;
+	text-align: left;
+}
+
+.tech-container {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+    margin-top: 100px;
+    
+	@media (max-width: 890px) {
+		height: auto;
+		grid-template-rows: 62px;
+	}
+}
+
+.tech-title {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.tech-title h3 {
+	font-size: 100px;
+	margin-left: 50px;
+	color: #c2942aff;
+}
+
+.tech-list {
+	grid-column-start: 2;
+	grid-column-end: 9;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 10px;
+}
+
+.tech-list ul {
+    font-size: 30px;
 
 }
 
@@ -88,4 +131,3 @@ d1f969ff
 #dfe1fbff
 #b3b8fbf
 #c3c6d7ff*/
-

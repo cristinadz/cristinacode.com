@@ -4,7 +4,7 @@
 	"title": "Software Developer",
 	"imageAlt": "Cristina's Face",
 	"linkedinLink": "https://www.linkedin.com/in/diaz-cristina",
-	"aboutBlurb": "passionate about developing innovative, reliable and accessible applications.  ",
+	"aboutBlurb": "passionate about building innovative, reliable and accessible applications.  ",
 	"tech": [
 		"Javascript",
 		"Ruby",
@@ -31,12 +31,12 @@
 			"description": "enter description here"
 		},
 		{
-			"company": "Tiny Task",
+			"name": "Tiny Task",
 			"tech": ["React", "Rails", "Chakra UI"],
 			"description": "enter description here"
 		},
 		{
-			"company": "fetchr",
+			"name": "fetchr",
 			"tech": ["React", "CSS", "Javascript"],
 			"description": "description"
 		}
