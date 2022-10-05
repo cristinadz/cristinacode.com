@@ -1,71 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
 	background-color: #edfbc8ff;
-	font-family: 'Poppins', sans-serif;
-
+	font-family: "Poppins", sans-serif;
 }
 
 .container {
 	width: 99vw;
 	height: 99vh;
-
-	/* display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 50px repeat(3, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 0px; */
+}
+.header {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-column-gap: 25px;
+	color: #375579ff;
+	padding: 50px;
+	padding-bottom: 20px;
+	padding-top: 25px;
+    font-size: 18px;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
-    grid-column-gap: 25px;
-    padding-top: 25px;
-	color: #375579ff;
+.about-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 25px;
+	
+	margin-top: 0;
+	padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 130px;
 }
 
 .title {
 	grid-column-start: 1;
-	grid-column-end: 13;
+	grid-column-end: 6;
 	color: #375579ff;
-    line-height: 90px;
-	font-size: 110px;
-    padding-top: 20px;
+	line-height: 130px;
+}
+
+.title p {
+    font-size: 140px;
+    margin: 0;
+    margin-top: 20px;
 }
 
 .cristinaImg {
 	grid-column-start: 1;
 	grid-column-end: 7;
-   
 }
 
 .cristinaImg img {
-    border-radius: 50%;
+	border-radius: 50%;
 	margin: 15px;
-    margin-left: 30px;
-    margin-top: 30px;
+	margin-left: 30px;
+	margin-top: 30px;
 	height: 250px;
 	width: auto;
 }
 
-.about {
-    grid-column-start: 6;
-    grid-column-end: 13;
-    grid-row-start: 4;
+.name {
+	grid-column-start: 8;
+	grid-column-end: 13;
+	grid-row-start: 2;
+	text-align: right;
 }
-.about text {
-	font-size: 110px;
-    color: #375579ff;
-    line-height: 90px;
-    padding-top: 50px;
-}
-.technologies {
-	grid-row-start: 5;
-	grid-column-start: 1;
-	grid-column-end: 4;
+.name p {
+	font-size: 140px;
+	color: #375579ff;
+	line-height: 130px;
+    margin: 0;
 }
 
+.about-me {
+    grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 4;
+    font-size: 25px;
+    text-align: left;
+
+}
 
 /* #1d07bdf
 #bd07a4ff 
@@ -75,3 +88,4 @@ d1f969ff
 #dfe1fbff
 #b3b8fbf
 #c3c6d7ff*/
+

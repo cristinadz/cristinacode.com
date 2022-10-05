@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Technologies() {
+function Technologies({tech}) {
   return (
-    <div className='technologies'>Technologies</div>
+    <div className='technologies'>{tech}</div>
   )
 }
 
