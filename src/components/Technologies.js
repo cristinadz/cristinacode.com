@@ -13,7 +13,7 @@ function Technologies({ tech, title }) {
 			</div>
       
       <div className="construction"> the rest of my site is currently under construction...  <br/>
-      <a href="https://www.aedin.com/in/diaz-cristina/"> learn more about me on LinkedIn</a></div>
+      <a href="https://www.linkedin.com/in/diaz-cristina/"> learn more about me on LinkedIn</a></div>
 		</div>
 	);
 }

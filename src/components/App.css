@@ -13,7 +13,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	grid-column-gap: 25px;
-	/* color: #375579ff; */
+	color: #000000;
 	padding: 50px;
 	padding-bottom: 20px;
 	padding-top: 25px;
@@ -28,7 +28,7 @@ body {
 	margin-top: 0;
 	padding: 50px;
 	padding-top: 0px;
-	padding-bottom: 130px;
+	padding-bottom: 100px;
 }
 
 .title {
@@ -71,7 +71,7 @@ body {
 	margin: 0;
 }
 
-.about-me {
+.summary {
 	grid-column-start: 4;
 	grid-column-end: 7;
 	grid-row-start: 4;
@@ -142,4 +142,4 @@ d1f969ff
 #c2dbdeff
 #dfe1fbff
 #b3b8fbf
-#c3c6d7ff*/
+#c3c6d7ff*/ 

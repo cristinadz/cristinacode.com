@@ -1,29 +1,30 @@
-import styling from "./About.css";
+import styling from "./App.css";
 
 // assets
 import data from "../assets/data.json";
 import cristinaImg from "../assets/cristinas_face.JPG";
 
 // components
-import About from "./About";
 import Header from "./Header";
+import Summary from "./Summary";
 import Technologies from "./Technologies";
 import Projects from "./Projects";
 
 function App() {
+	const { summary,} = data
 	return (
 		<div className="container">
 			<Header data={data} />
 
-			<About
-				about={data.aboutBlurb}
+			<Summary
+				summary={summary}
 				name={`${data.firstName} ${data.lastName}`}
 				title={data.title}
 				cristinaImg={cristinaImg}
 			/>
 
 			<Technologies tech={data.tech} title={'Skills'}/>
-			{/* <Projects projects={data.projects} /> */}
+			<Projects projects={data.projects} />
 		</div>
 	);
 }

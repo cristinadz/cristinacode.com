@@ -4,7 +4,7 @@
 	"title": "Software Developer",
 	"imageAlt": "Cristina's Face",
 	"linkedinLink": "https://www.linkedin.com/in/diaz-cristina",
-	"aboutBlurb": "passionate about building innovative, reliable and accessible applications.  ",
+	"summary": "passionate about building innovative, reliable and accessible applications.  ",
 	"tech": [
 		"Javascript",
 		"Ruby",
@@ -21,24 +21,26 @@
 		"Crochet",
 		"Reading",
 		"House Plants",
-		"My 2 Dogs",
-		"LGBTQIA+ Rights"
+		"My 2 Dogs"
 	],
 	"projects": [
 		{
 			"name": "dorphins",
 			"tech": ["React", "Rails", "Chakra UI", "Chart.js"],
-			"description": "enter description here"
+			"description": "enter description here",
+			"website": "enter website here"
 		},
 		{
 			"name": "Tiny Task",
 			"tech": ["React", "Rails", "Chakra UI"],
-			"description": "enter description here"
+			"description": "enter description here",
+			"website": "enter website here"
 		},
 		{
 			"name": "fetchr",
 			"tech": ["React", "CSS", "Javascript"],
-			"description": "description"
+			"description": "description",
+			"website": "enter website here"
 		}
 	]
 }
