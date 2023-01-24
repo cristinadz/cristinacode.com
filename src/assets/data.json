@@ -26,21 +26,26 @@
 	"projects": [
 		{
 			"name": "dorphins",
+			"appImg": "https://appetiser.com.au/wp-content/uploads/2020/03/Top-5-Mobile-App-Development-Trends-Set-to-Rule-2020.png",
 			"tech": ["React", "Rails", "Chakra UI", "Chart.js"],
-			"description": "enter description here",
-			"website": "enter website here"
+			"description": "an app to train, track and plan your runs",
+			"website": "https://dorphins.herokuapp.com",
+			"github": "gitlink"
 		},
 		{
-			"name": "Tiny Task",
+			"name": "tiny-task",
+			"appImg": "https://appetiser.com.au/wp-content/uploads/2020/03/Top-5-Mobile-App-Development-Trends-Set-to-Rule-2020.png",
 			"tech": ["React", "Rails", "Chakra UI"],
 			"description": "enter description here",
-			"website": "enter website here"
+			"website": "https://tiny--task.herokuapp.com",
+			"github": "gitlink"
 		},
 		{
 			"name": "fetchr",
+			"appImg": "https://appetiser.com.au/wp-content/uploads/2020/03/Top-5-Mobile-App-Development-Trends-Set-to-Rule-2020.png",
 			"tech": ["React", "CSS", "Javascript"],
 			"description": "description",
-			"website": "enter website here"
+			"github": "gitlink"
 		}
 	]
 }

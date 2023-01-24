@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-	background-color: rgb(234, 249, 193);
+	background-color: rgb(237, 249, 204);
 	font-family: "Poppins", sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
 	width: 99vw;
 	height: 99vh;
 }
-.header {
+.navbar {
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	grid-column-gap: 25px;
