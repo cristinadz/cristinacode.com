@@ -1,29 +1,29 @@
-import styling from "./About.css";
+import styling from "./App.css";
+import { Route, Routes } from 'react-router-dom'
 
 // assets
 import data from "../assets/data.json";
-import cristinaImg from "../assets/cristinas_face.JPG";
 
-// components
-import About from "./About";
-import Header from "./Header";
-import Technologies from "./Technologies";
-import Projects from "./Projects";
+// pages
+import NavBar from "./NavBar";
+import HomePage from "../pages/HomePage";
+import WorkPage from "../pages/WorkPage";
+import AboutPage from "../pages/AboutPage"
+import ContactPage from "../pages/ContactPage"
+
 
 function App() {
+	const { projects } = data;
 	return (
 		<div className="container">
-			<Header data={data} />
+			<NavBar />
+			<Routes>
+				<Route path="/" element= {<HomePage />} />
+				<Route path="/work" element= {<WorkPage projects={projects} />} />
+				<Route path="/about" element= {<AboutPage />} />
+				<Route path="/contact" element= {<ContactPage />} />
 
-			<About
-				about={data.aboutBlurb}
-				name={`${data.firstName} ${data.lastName}`}
-				title={data.title}
-				cristinaImg={cristinaImg}
-			/>
-
-			<Technologies tech={data.tech} title={'Skills'}/>
-			{/* <Projects projects={data.projects} /> */}
+			</Routes>
 		</div>
 	);
 }

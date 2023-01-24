@@ -1,6 +1,6 @@
 import React from "react";
 
-function About({ about, title, name }) {
+function Summary({ summary, title, name }) {
 	return (
 		<>
 			<div className="about-container">
@@ -15,12 +15,12 @@ function About({ about, title, name }) {
 						{name.toUpperCase()}
 					</p>
 				</div>
-				<div className="about-me">
-					<p> {about.toUpperCase()}</p>
+				<div className="summary">
+					<p> {summary.toUpperCase()}</p>
 				</div>
 			</div>
 		</>
 	);
 }
 
-export default About;
+export default Summary;
