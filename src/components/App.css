@@ -1,30 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-	background-color: rgb(237, 249, 204);
+	background-color: #e1dfdd;
 	font-family: "Poppins", sans-serif;
 }
 
 .container {
-	width: 99vw;
-	height: 99vh;
+	width: 100%;
+	height: 100%;
 }
 .navbar {
 	display: grid;
-	grid-template-columns: repeat(10, 1fr);
+	grid-template-columns: repeat(12, 1fr);
 	grid-column-gap: 25px;
-	color: #000000;
 	padding: 50px;
 	padding-bottom: 20px;
 	padding-top: 25px;
 	font-size: 20px;
 }
-
-.about-container {
+.navbar a {
+	text-decoration: none;
+	color: #4e4e4e;
+}
+.navbar a:hover {
+	cursor: pointer;
+	text-decoration: overline;
+}
+.navbar-name{
+	grid-column-start: 1;
+}
+.navbar-about{
+	grid-column-start: 11;
+}
+.navbar-contact{
+	grid-column-start: 12;
+}
+.summary-container {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-column-gap: 25px;
-
+	max-width: 100%;
 	margin-top: 0;
 	padding: 50px;
 	padding-top: 0px;
@@ -34,17 +49,17 @@ body {
 .title {
 	grid-column-start: 1;
 	grid-column-end: 6;
-	color: #375579ff;
-	line-height: 130px;
+	color: black;
+	line-height: 100px;
 }
 
 .title p {
-	font-size: 140px;
+	font-size: calc(50px + 5vw);
 	margin: 0;
 	margin-top: 20px;
 }
 
-.cristinaImg {
+/* .cristinaImg {
 	grid-column-start: 1;
 	grid-column-end: 7;
 }
@@ -56,26 +71,27 @@ body {
 	margin-top: 30px;
 	height: 250px;
 	width: auto;
-}
+} */
 
 .name {
-	grid-column-start: 8;
+	grid-column-start:7;
 	grid-column-end: 13;
 	grid-row-start: 2;
 	text-align: right;
-}
-.name p {
-	font-size: 140px;
-	color: #375579ff;
-	line-height: 130px;
+	font-size: calc(50px + 5vw);
+	color: black;
+	line-height: 100px;
 	margin: 0;
 }
+/* .name p {
+
+} */
 
 .summary {
 	grid-column-start: 4;
 	grid-column-end: 7;
 	grid-row-start: 4;
-	font-size: 30px;
+	font-size: calc(14px + 1vw);
 	text-align: left;
 }
 
@@ -84,55 +100,108 @@ body {
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 	margin-top: 100px;
-
+/* 
 	@media (max-width: 890px) {
 		height: auto;
 		grid-template-rows: 62px;
-	}
+	} */
 }
 
 .tech-title {
 	grid-column-start: 1;
-	grid-column-end: 4;
+	grid-column-end: 12;
 	grid-row-start: 1;
-	grid-row-end: 4;
-	display: flex;
+	/* display: flex;
 	justify-content: flex-start;
-	align-items: flex-start;
+	align-items: flex-start; */
 }
 
 .tech-title h3 {
-	font-size: 50px;
-	margin-left: 100px;
-	color: #c2942aff;
+	font-size: 60px;
+	text-align: right;
+	color: rgb(120, 120, 120);
+	padding-right: 100px;
+	text-decoration:underline;
+	text-decoration-thickness: 4px;
 }
 
 .tech-list {
-	grid-column-start: 4;
+	grid-column-start: 1;
+	text-align: center;
 	grid-column-end: 9;
-	grid-row-start: 1;
+	grid-row-start: 2;
 	grid-row-end: 4;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(4, 1fr);
-	grid-gap: 10px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 0px;
 }
 
 .tech-list ul {
 	font-size: 30px;
 }
 
-.construction {
-	grid-column-start: 2;
-	grid-column-end: 9;
-	grid-row-start: 4;
-	font-size: 30px;
-    margin: 50px;
+.project-card {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 25px;
+	margin: 100px 50px 190px 50px;
+	
 }
 
-.construction a {
-	color: #375579ff;
-	font-size: 50px;
+.project-card img {
+	grid-column-end: 13;
+	grid-row-end:span 3;
+	width: 700px
+}
+
+.project-text {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+}
+.project-text h1 {
+	color: black;
+	font-weight: 100;
+	font-size: calc(30px + 5vw);
+	margin: 0px;
+	text-decoration: underline;
+	text-decoration-thickness: 5px;
+	line-height: 90px;
+}
+
+.project-text h4 {
+	font-size: calc(8px + 1vw);
+	text-align: left;
+	line-height: 30px;
+	margin: 68px 0px 120px 98px;
+}
+.project-tech{
+	grid-column-start: 1;
+	grid-column-end: 8;
+	margin-top: auto;
+}
+
+.project-tech ul{
+	font-size: 20px;
+	float: left;
+}
+.project-tech img {
+	width: 40px;
+}
+
+.project-links{
+	grid-row-start: 3;
+}
+.project-links a {
+	text-decoration: none;
+	color: rgb(119, 119, 119);
+	font-size: 20px;
+	padding-left: 40px;
+}
+.project-links a:hover {
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 /* #1d07bdf
@@ -142,4 +211,4 @@ d1f969ff
 #c2dbdeff
 #dfe1fbff
 #b3b8fbf
-#c3c6d7ff*/ 
+#c3c6d7ff*/

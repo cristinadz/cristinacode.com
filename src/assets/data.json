@@ -26,27 +26,43 @@
 	"projects": [
 		{
 			"name": "dorphins",
-			"appImg": "https://appetiser.com.au/wp-content/uploads/2020/03/Top-5-Mobile-App-Development-Trends-Set-to-Rule-2020.png",
-			"tech": ["React", "Rails", "Chakra UI", "Chart.js"],
-			"description": "an app to train, track and plan your runs",
+			"appImg": "https://i.ibb.co/b1CGk0C/dorphins.png",
+			"tech": [
+				"https://cdn.iconscout.com/icon/free/png-256/react-1543566-1306069.png",
+				"https://cdn.iconscout.com/icon/free/png-256/javascript-3445673-2878605.png",
+				"https://www.shareicon.net/data/2015/08/30/93005_on_395x512.png",
+				"https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS",
+				"https://i.ibb.co/9GDY4Fj/chartjs-icon-132506.png"
+			],
+			"description": "a mobile-first app to help you pick a training plan, track miles & train for your next event",
 			"website": "https://dorphins.herokuapp.com",
-			"github": "gitlink"
+			"github": "https://github.com/cristinadz/dorphins"
 		},
 		{
 			"name": "tiny-task",
-			"appImg": "https://appetiser.com.au/wp-content/uploads/2020/03/Top-5-Mobile-App-Development-Trends-Set-to-Rule-2020.png",
-			"tech": ["React", "Rails", "Chakra UI"],
+			"appImg": "https://i.ibb.co/0Yf9jW2/tinytask.png",
+			"tech": [
+				"https://cdn.iconscout.com/icon/free/png-256/react-1543566-1306069.png",
+				"https://cdn.iconscout.com/icon/free/png-256/javascript-3445673-2878605.png",
+				"https://www.shareicon.net/data/2015/08/30/93005_on_395x512.png",
+				"https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"
+			],
 			"description": "enter description here",
 			"website": "https://tiny--task.herokuapp.com",
-			"github": "gitlink"
+			"github": "https://github.com/cristinadz/tiny-task"
 		},
 		{
 			"name": "fetchr",
 			"appImg": "https://appetiser.com.au/wp-content/uploads/2020/03/Top-5-Mobile-App-Development-Trends-Set-to-Rule-2020.png",
-			"tech": ["React", "CSS", "Javascript"],
+			"tech": [
+				"https://cdn.iconscout.com/icon/free/png-256/javascript-3445673-2878605.png",
+				"https://cdn.iconscout.com/icon/free/png-256/react-1543566-1306069.png",
+				"https://img.freepik.com/free-icon/css-3_318-565894.jpg?w=2000"
+			],
 			"description": "description",
 			"github": "gitlink"
 		}
 	]
 }
+
 

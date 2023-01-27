@@ -3,7 +3,7 @@ import React from "react";
 function Summary({ summary, title, name }) {
 	return (
 		<>
-			<div className="about-container">
+			<div className="summary-container">
 				<div className="title">
 					<p>
 						{title.toUpperCase()}
