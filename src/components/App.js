@@ -18,7 +18,7 @@ function App() {
 		<div className="container">
 			<NavBar />
 			<Routes>
-				<Route path="/" element= {<HomePage />} />
+				<Route path="/" element= {<HomePage projects={projects} />} />
 				<Route path="/work" element= {<WorkPage projects={projects} />} />
 				<Route path="/about" element= {<AboutPage />} />
 				<Route path="/contact" element= {<ContactPage />} />
@@ -29,6 +29,14 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
 
 // I'm a queer latinx full-stack software engineer.
 //  I'm passionate about developing innovatibe, reliable and accessible applications. I'm interested in contributing to meaningful projects that are community oriented. When I'm not building or exploring new web experiences,

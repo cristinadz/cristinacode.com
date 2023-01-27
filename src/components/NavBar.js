@@ -5,17 +5,11 @@ function NavBar() {
 
 	return (
 		<div className="navbar">
-			<NavLink to="/"> cristina diaz </NavLink>
+			<div className="navbar-name"><NavLink to="/"> cristina diaz </NavLink> </div>
+			<div className="navbar-about"><NavLink to="/about"> about </NavLink> </div>
 
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<NavLink to="/about"> about </NavLink>
-			<NavLink to="/contact"> contact</NavLink>
+			<div className="navbar-contact"><NavLink to="/contact"> contact </NavLink> </div>
+
 		</div>
 	);
 }
