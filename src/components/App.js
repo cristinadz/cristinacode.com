@@ -13,14 +13,14 @@ import ContactPage from "../pages/ContactPage"
 
 
 function App() {
-	const { projects } = data;
+	const { projects, aboutMe, links } = data;
 	return (
 		<div className="container">
 			<NavBar />
 			<Routes>
 				<Route path="/" element= {<HomePage projects={projects} />} />
 				<Route path="/work" element= {<WorkPage projects={projects} />} />
-				<Route path="/about" element= {<AboutPage />} />
+				<Route path="/about" element= {<AboutPage about={aboutMe} links={links}/>} />
 				<Route path="/contact" element= {<ContactPage />} />
 
 			</Routes>

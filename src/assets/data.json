@@ -3,7 +3,31 @@
 	"lastName": "Diaz",
 	"title": "Software Developer",
 	"imageAlt": "Cristina's Face",
-	"linkedinLink": "https://www.linkedin.com/in/diaz-cristina",
+	"links": [
+		{
+			"name":"LinkedIn ",
+			"url": "https://www.linkedin.com/in/diaz-cristina/"
+		},
+		{
+			"name": "-"
+		},
+		{
+			"name":"Github",
+			"url": "https://github.com/cristinadz"
+		},
+		{
+			"name": "-"
+		},
+		{
+			"name":"Resume",
+			"url": "https://drive.google.com/file/d/1rBcSA-xn-9KRC5XSPNCPGVUSfZ3vJrZf/view?usp=sharing"
+		}
+	],
+	"aboutMe": {
+		"greeting": "Hi, I'm Cristina.",
+		"title": "A Queer Latinx Software Developer based in Los Angeles, CA.",
+		"paragraph": "As a developer, I strive to build reliable, impactful and user friendly applications. I am passionate about helping others by building projects that will improve their lives and am excited to join a company that also shares this passion."
+	},
 	"summary": "passionate about building innovative, reliable and accessible applications.  ",
 	"tech": [
 		"Javascript",
@@ -47,7 +71,7 @@
 				"https://www.shareicon.net/data/2015/08/30/93005_on_395x512.png",
 				"https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"
 			],
-			"description": "enter description here",
+			"description": "app to browse and favorite children's activities",
 			"website": "https://tiny--task.herokuapp.com",
 			"github": "https://github.com/cristinadz/tiny-task"
 		},
@@ -64,5 +88,3 @@
 		}
 	]
 }
-
-
