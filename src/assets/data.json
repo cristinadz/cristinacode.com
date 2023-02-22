@@ -3,6 +3,9 @@
 	"lastName": "Diaz",
 	"title": "Software Developer",
 	"imageAlt": "Cristina's Face",
+	"resume":"https://drive.google.com/file/d/1rBcSA-xn-9KRC5XSPNCPGVUSfZ3vJrZf/view?usp=sharing",
+	"linkedin":"https://www.linkedin.com/in/diaz-cristina/",
+	"email":"diazcristina.la @gmail.com",
 	"links": [
 		{
 			"name":"LinkedIn ",
@@ -20,7 +23,7 @@
 		},
 		{
 			"name":"Resume",
-			"url": "https://drive.google.com/file/d/1rBcSA-xn-9KRC5XSPNCPGVUSfZ3vJrZf/view?usp=sharing"
+			"url": ""
 		}
 	],
 	"aboutMe": {
@@ -29,6 +32,7 @@
 		"paragraph": "As a developer, I strive to build reliable, impactful and user friendly applications. I am passionate about helping others by building projects that will improve their lives and am excited to join a company that also shares this passion."
 	},
 	"summary": "passionate about building innovative, reliable and accessible applications.  ",
+
 	"tech": [
 		"Javascript",
 		"Ruby",

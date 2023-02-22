@@ -59,7 +59,6 @@ body {
 	margin-top: 20px;
 }
 
-
 .name {
 	grid-column-start: 7;
 	grid-column-end: 13;
@@ -237,6 +236,32 @@ body {
 .about-text p {
 	margin-top: 25px;
 	font-size: calc(4px + 1vw);
-	font-weight:lighter;
+	font-weight: lighter;
+}
+.contact-container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-column-gap: 10px;
+	padding: 150px 0 200px;
+	text-align: center;
+}
 
+.contact-title {
+	font-size: 25px;
+	grid-column-start: 1;
+	grid-column-end: 7;
+}
+.contact-email {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	font-size: calc(40px + 4vw);
+	line-height: 0.875;
+	color: #000000;
+}
+.contact-linkedin {
+	margin-top: 50px;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	color: #000000;
+	font-size: calc(40px + 4vw);
 }

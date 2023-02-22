@@ -1,7 +1,7 @@
 import cristinasFace from "../assets/cristinas_face.JPG";
 
 function AboutPage({ about, links }) {
-	const { greeting, title, paragraph } = about;
+	const { greeting, title, paragraph, resume } = about;
 
 	const renderedLinks = links.map((link) => {
 		return (
