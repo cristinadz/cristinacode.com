@@ -127,6 +127,7 @@ body {
 	grid-column-end: 13;
 	grid-row-end: span 3;
 	width: 700px;
+
 }
 
 .project-text {
@@ -162,6 +163,8 @@ body {
 }
 .project-tech img {
 	width: 40px;
+	height: 50px;
+
 }
 
 .project-links {

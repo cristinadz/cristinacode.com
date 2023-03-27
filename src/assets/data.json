@@ -3,26 +3,26 @@
 	"lastName": "Diaz",
 	"title": "Software Developer",
 	"imageAlt": "Cristina's Face",
-	"resume":"https://docs.google.com/document/d/1_59Jf-j3edn-gVAunEHCncBdeU2GUqGnq9IZLT_OlW4/edit?usp=sharing",
-	"linkedin":"https://www.linkedin.com/in/diaz-cristina/",
-	"email":"diazcristina.la @gmail.com",
+	"resume": "https://docs.google.com/document/d/1_59Jf-j3edn-gVAunEHCncBdeU2GUqGnq9IZLT_OlW4/edit?usp=sharing",
+	"linkedin": "https://www.linkedin.com/in/diaz-cristina/",
+	"email": "diazcristina.la @gmail.com",
 	"links": [
 		{
-			"name":"LinkedIn ",
+			"name": "LinkedIn ",
 			"url": "https://www.linkedin.com/in/diaz-cristina/"
 		},
 		{
 			"name": "-"
 		},
 		{
-			"name":"Github",
+			"name": "Github",
 			"url": "https://github.com/cristinadz"
 		},
 		{
 			"name": "-"
 		},
 		{
-			"name":"Resume",
+			"name": "Resume",
 			"url": ""
 		}
 	],
@@ -32,7 +32,6 @@
 		"paragraph": "As a developer, I strive to build reliable, impactful and user friendly applications. I am passionate about helping others by building projects that will improve their lives and am excited to join a company that also shares this passion."
 	},
 	"summary": "passionate about building innovative, reliable and accessible applications.  ",
-
 	"tech": [
 		"Javascript",
 		"Ruby",
@@ -52,6 +51,19 @@
 		"My 2 Dogs"
 	],
 	"projects": [
+		{
+			"name": "scramble",
+			"appImg": "https://i.ibb.co/vqfhXWz/Screen-Shot-2023-03-27-at-12-32-00-PM.png",
+			"tech": [
+				"https://cdn.iconscout.com/icon/free/png-256/react-1543566-1306069.png",
+				"https://cdn.iconscout.com/icon/free/png-256/javascript-3445673-2878605.png",
+				"https://www.shareicon.net/data/2015/08/30/93005_on_395x512.png",
+				"https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS",
+				"https://seeklogo.com/images/R/recoil-icon-logo-9ED29C2C7B-seeklogo.com.png"
+			],
+			"description": "an app to help indecisive people pick a place to eat, shop, drink etc",
+			"github": "https://github.com/cristinadz/scramble"
+		},
 		{
 			"name": "dorphins",
 			"appImg": "https://i.ibb.co/b1CGk0C/dorphins.png",

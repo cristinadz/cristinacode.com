@@ -15,9 +15,10 @@ function ProjectCard({ project }) {
 				))}
 			</div>
 			<div className="project-links">
+				{ website ? 
 				<a href={website} target="_blank">
 					website
-				</a>
+				</a> : null }
 				<a href={github} target="_blank">
 					github
 				</a>
